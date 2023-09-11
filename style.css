@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('09_03_2023_16_36_36_6427983.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+
+}
+.row{
+    width:100%; 
+    padding: 0px 80px;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: relative;
+    z-index: 1;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar a{
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+.navbar a:hover{
+    background: crimson;
+}
+.navbar h1{
+    color:crimson;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.container p{
+    width: 100%;
+    min-height: 100vh;
+    top:0;
+    left: 0;
+    align-items:normal;
+    margin-top: 30px;
+}
+h3{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+section a button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 10px;
+    background:crimson;
+    transition: 0.4s;
+    border-radius: 8px;
+}
+section a button:hover{
+    background: transparent;
+    border: 1px solid crimson;
+}
+
